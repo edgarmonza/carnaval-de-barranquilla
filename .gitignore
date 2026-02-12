@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Environment
+.env
+.env.local
+.env.production
+.env.*.local
+
+# Build
+.next/
+out/
+build/
+dist/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+scrapy.log
+
+# Data (scraped data - don't commit raw data)
+scrapers/data/
+scrapers/output/
+*.json.bak
+*.csv.bak
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Misc
+*.pid
+*.seed
